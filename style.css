@@ -5,8 +5,10 @@
 }
 
 .links {
+  float: right;
 }
 
 .name {
-  font-size: 18px;
+  font-size: 24px;
+  float: left;
 }
