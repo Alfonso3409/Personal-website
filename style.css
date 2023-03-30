@@ -1,14 +1,29 @@
-.active {
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Great+Vibes&display=swap");
+
+header {
+  font-size: 64px;
+  display: block;
+  position: relative;
+  padding: 20px 40px;
 }
 
-.class {
+.active {
+  color: black;
+  text-shadow: 0.04em 0.04em 0 #ff0303, 0.08em 0.08em 0 #aaa;
+  -webkit-text-shadow: 0.04em 0.04em 0 #fc0d0d, 0.08em 0.08em 0 #aaa;
 }
 
 .links {
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
   float: right;
 }
 
 .name {
-  font-size: 24px;
+  font-family: "Great Vibes", cursive;
+  font-size: 64px;
   float: left;
 }
