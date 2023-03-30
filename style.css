@@ -9,13 +9,24 @@ header {
   padding: 20px 40px;
 }
 
+a,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
 .active {
   color: black;
   text-shadow: 0.04em 0.04em 0 #ff0303, 0.08em 0.08em 0 #aaa;
   -webkit-text-shadow: 0.04em 0.04em 0 #fc0d0d, 0.08em 0.08em 0 #aaa;
 }
 
-.links {
+.links,
+.links:hover,
+.links:visited,
+.links:active {
   color: black;
   font-family: "Cinzel", serif;
   font-size: 30px;
