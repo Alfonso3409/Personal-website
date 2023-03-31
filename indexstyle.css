@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Great+Vibes&display=swap");
+
+body {
+  background-size: cover;
+
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  max-width: 100%;
+}
+header {
+  font-size: 64px;
+  display: flexbox;
+  position: fixed;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+main {
+  padding: 64px 24px 96px;
+}
+
+section {
+  text-align: center;
+}
+
+section > img {
+  height: 800px;
+  margin: auto;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+  text-align: left;
+}
+
+.active {
+  color: black;
+  text-shadow: 0.04em 0.04em 0 #ff0303, 0.08em 0.08em 0 #aaa;
+  -webkit-text-shadow: 0.04em 0.04em 0 #fc0d0d, 0.08em 0.08em 0 #aaa;
+}
+
+.links,
+.links:hover,
+.links:visited,
+.links:active {
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  float: right;
+  margin-left: 0.25;
+}
+
+.name {
+  font-family: "Great Vibes", cursive;
+  font-size: 64px;
+  float: left;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Great+Vibes&display=swap");
+
+body {
+  background-image: url("https://lh3.googleusercontent.com/9WOo7CsSL9_9GReR1c816LjvnErIExMjrA7tFFZstz3SGBhCbe1CuMLQdrTdmsLPp6yiTkJAAsMKPQgrwX7ZW1shzDM7tiBsHogXwbds3lNB5YDGlCxCuklMVCeJgwKktOohWAugIOzTzJELEZeqcMGkWUc0JKK4IXh_W961lna2dQY9_wB0DtCgYnvWjbsa4Yp7Tu8aC8fHfXN0qZFPu8yStjTJSFLBShop6rO1VTjuiFHpYQLe2_CVkzBeZfdoUwmF0stuUlvUrRdEif2cLnEN7ZgxtOSarCYB_X1OrW3iIIQH7vIJfADFOF32xZP8bpvvzPSR64TAtTW7IZmJBDcL9v8KlTKLVDt13zjUExI1iYNRlb_V-UYbI1vHT1Y_6DwMxJULtsoPs6o0xtIdYtgntFq_1NDRRRHsE761p0VT60CmlhJThfmlmE3OvjYduNKsFzTvtc2Q91VUjPjG7bRVoabb3Jph3VcwwEqE7ZT2aF5U-2amovCaHtjUiFf1m3H9sNNhqjlbV8ifceb1SWeCFFfKgVkSr1-uM0Q6XkUBFjnrA_vzUD_QRhz5RFF5vyC8q97Pfw0ACwa6Y5Sz8wMcv12xz_NnJeZWLqDzxfaSHqY23J8FyszaIfhH4J0oN-C05iFPTqnbmuPlWWzjKJEYmzBfocN5dXq-DnpzFCklnaALwVZ3nPXXcnWdFUxTtnklUPQdrfCmCr3Ipas4eFfoANvdaUO9QKnM6hX56BBQxR8ykOfCh0jL-8oadygp3S1x3LcMqcoH5_KLCQBzqYFbavEj3rsouLUakgFH1XXarxBc-KebkfNawlDGJWMj3J2z-7qE7CK5GjpNAIooDOeQ3Bsnb_G_tHIE7coCqUIz-NJkFDYmkcG-0PFNPRlBIaP0dX_7pAT9dVnk1J8T1GZI72P6Iyv-BCVRppBUeDHqrc1b6w=w600-h338-s-no?authuser=0");
+  background-size: cover;
+  background-color: rgba(112, 128, 144, 0.5);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  max-width: 980px;
+}
+header {
+  font-size: 64px;
+  display: block;
+  position: fixed;
+  padding: 20px 40px;
+  margin-bottom: 40px;
+}
+
+header::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: black;
+}
+
+main {
+  background-color: rgba(112, 128, 144, 0.8);
+  padding: 64px 24px 96px;
+}
+a,
+a:hover,
+a:visited,
+a:active {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+.active {
+  color: black;
+  text-shadow: 0.04em 0.04em 0 #ff0303, 0.08em 0.08em 0 #aaa;
+  -webkit-text-shadow: 0.04em 0.04em 0 #fc0d0d, 0.08em 0.08em 0 #aaa;
+}
+
+.links,
+.links:hover,
+.links:visited,
+.links:active {
+  color: black;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  float: right;
+}
+
+.name {
+  font-family: "Great Vibes", cursive;
+  font-size: 64px;
+  float: left;
+}
