@@ -3,19 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Great+Vibes&display=swap");
 
 body {
-  background-image: url("");
   background-size: cover;
 
   height: 100vh;
   padding: 0;
   margin: 0;
   margin: auto;
-  max-width: 960px;
+  max-width: 100%;
 }
 header {
   font-size: 64px;
-  display: block;
-  position: relative;
+  display: flexbox;
+  position: fixed;
   padding: 20px 40px;
   margin-bottom: 40px;
 }
@@ -30,11 +29,22 @@ p {
 main {
   padding: 64px 24px 96px;
 }
+
+section {
+  text-align: center;
+}
+
+section > img {
+  height: 800px;
+  margin: auto;
+}
+
 a,
 a:hover,
 a:visited,
 a:active {
   color: black;
+  text-align: left;
 }
 
 .active {
@@ -51,6 +61,7 @@ a:active {
   font-family: "Cinzel", serif;
   font-size: 30px;
   float: right;
+  margin-left: 0.25;
 }
 
 .name {
